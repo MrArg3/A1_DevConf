@@ -31,17 +31,14 @@ nav{
    cursor: pointer;
 
 }
-
-.banner{
-    font-family: "Inter", sans-serif;
+.main{
+  font-family: "Inter", sans-serif;
 }
 
 .banner-inner{
     text-align: center;
     color: rgba(255, 0, 0, 0.579);
 }
-
-
 .banner img {
     width: 100%;
     filter: brightness(50%);
@@ -64,23 +61,18 @@ nav{
 
 .speakers_sec{
     display: flex;
-    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
     padding: 80px 60px;
     row-gap: 56px;
 
 }
-
-.speakers {
-    font-family: "Inter", sans-serif;
+img{
+    border-radius: 12px 12px 0px 0px;
 }
 
-.speakers h1 {
-    text-align: center;
+.speakersHead h1 {
     font-size: 56px;
-    font-weight: bold;
-    /* margin: 40px; */
-    /* line-height: 64.4px; */
-    color: 000102;
 }
 
 .employees {
@@ -95,13 +87,35 @@ nav{
     border: 1px solid #e5e7eb;
     border-radius: 12px;
 }
-.bio{
+.bio{  
     display: flex;
-    flex-direction: column-reverse;
-    align-items: start;
-    align-content: start;
-    justify-items: start;
-    justify-content: start;
+    flex-direction: column;
     row-gap: 8px;
     padding: 24px;
+
+}
+.speakers-head{
+    height: 65px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1500000272478377;
+}
+.bio h2{
+    color: #0d1b2aFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.department{
+    color: #2563EB;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+.designation{
+    color: #575757FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
 }
